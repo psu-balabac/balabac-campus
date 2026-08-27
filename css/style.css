@@ -269,3 +269,26 @@ footer a:hover{color:#fff}
   .article-hero{padding:60px 0}
   .article-layout{padding-top:45px}
 }
+.site-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.footer-logo {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 600px) {
+  .site-logo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .footer-logo {
+    width: 42px;
+    height: 42px;
+  }
+}
