@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Palawan State University – Balabac Campus news, announcements, academic programs, and campus updates.">
+  <title>PalSU Balabac Campus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span>Palawan State University</span>
+      <span class="top-strip-note">Balabac Campus • Southern Palawan</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="PalSU Balabac Campus home">
+        <div class="brand-mark" aria-hidden="true">PSU</div>
+        <div>
+          <div class="brand-kicker">Palawan State University</div>
+          <div class="brand-name">Balabac Campus</div>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="#news">News</a>
+        <a href="#programs">Programs</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Official Campus Information Portal</p>
+        <h1>Learning, service, and opportunity closer to home.</h1>
+        <p class="hero-copy">
+          News, academic updates, student activities, announcements, and stories
+          from Palawan State University – Balabac Campus.
+        </p>
+        <div class="hero-actions">
+          <a href="#news" class="button button-primary">Latest campus news</a>
+          <a href="#programs" class="button button-ghost">Explore programs</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-links">
+      <div class="container quick-links-grid">
+        <a href="#news" class="quick-link"><strong>Campus News</strong><span>Stories, events & achievements</span></a>
+        <a href="#programs" class="quick-link"><strong>Academic Programs</strong><span>Explore programs offered</span></a>
+        <a href="#announcements" class="quick-link"><strong>Announcements</strong><span>Important campus updates</span></a>
+        <a href="#about" class="quick-link"><strong>About Balabac</strong><span>Our campus & community</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow dark">Campus Journal</p>
+            <h2>Latest News & Stories</h2>
+          </div>
+          <div class="filters">
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="searchInput" type="search" placeholder="Search stories…" autocomplete="off">
+            </label>
+            <select id="categoryFilter" aria-label="Filter by category">
+              <option value="all">All categories</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="featuredStory" class="featured-story"></div>
+        <div id="postsGrid" class="posts-grid" aria-live="polite"></div>
+        <div id="emptyState" class="empty-state" hidden>No stories match your search.</div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="announcements">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow dark">Notice Board</p>
+          <h2>Announcements</h2>
+          <p>Use this area for enrollment reminders, class suspensions, deadlines, memoranda, and other time-sensitive campus notices.</p>
+        </div>
+        <div class="announcement-list" id="announcementList"></div>
+      </div>
+    </section>
+
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow dark">Academic Offerings</p>
+          <h2>Programs at Balabac Campus</h2>
+          <p>Undergraduate programs designed to respond to local and regional educational and development needs.</p>
+        </div>
+        <div class="program-grid">
+          <article class="program-card">
+            <div class="program-icon">ED</div>
+            <h3>Bachelor of Elementary Education</h3>
+            <p>Preparing future elementary educators through academic foundations, pedagogy, field study, and community engagement.</p>
+          </article>
+          <article class="program-card">
+            <div class="program-icon">EN</div>
+            <h3>BS Entrepreneurship</h3>
+            <p>Developing entrepreneurial knowledge and skills for enterprise creation, innovation, livelihood, and local economic development.</p>
+          </article>
+          <article class="program-card">
+            <div class="program-icon">AG</div>
+            <h3>BS Agriculture</h3>
+            <p>Building competencies in agricultural practices, sustainability, food production, and community-based development.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section campus-intro" id="about">
+      <div class="container campus-intro-grid">
+        <div>
+          <p class="eyebrow dark">About the Campus</p>
+          <h2>Higher education serving southern Palawan.</h2>
+        </div>
+        <div class="campus-copy">
+          <p>
+            Palawan State University – Balabac Campus is an external campus located in
+            Balabac, Palawan. It helps bring accessible and quality higher education
+            closer to students and communities in the southernmost municipality of Palawan.
+          </p>
+          <p>
+            The campus advances the university's commitment to education, research,
+            innovation, extension, and community-oriented services that contribute to
+            sustainable development and improved quality of life.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-mark small">PSU</div>
+        <div>
+          <strong>Palawan State University</strong>
+          <span>Balabac Campus</span>
+        </div>
+      </div>
+      <div>
+        <h3>Campus</h3>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#news">News</a>
+      </div>
+      <div>
+        <h3>Resources</h3>
+        <a href="https://psu.palawan.edu.ph/" target="_blank" rel="noopener">Palawan State University</a>
+        <a href="https://sites.google.com/psu.palawan.edu.ph/palsu-balabaccampus/home" target="_blank" rel="noopener">Current Google Site</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Barangay 6, Balabac, Palawan, Philippines</p>
+        <p>Update this section with your official campus contact details.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Palawan State University – Balabac Campus</span>
+      <span>Pamantasan ng mga eStudyanteng numero Uno</span>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
