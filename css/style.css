@@ -270,25 +270,25 @@ footer a:hover{color:#fff}
   .article-layout{padding-top:45px}
 }
 .site-logo {
-  width: 64px;
-  height: 64px;
+  width: 14px;
+  height: 14px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
 .footer-logo {
-  width: 48px;
-  height: 48px;
+  width: 16px;
+  height: 16px;
 }
 
 @media (max-width: 600px) {
   .site-logo {
-    width: 52px;
-    height: 52px;
+    width: 12px;
+    height: 12px;
   }
 
   .footer-logo {
-    width: 42px;
-    height: 42px;
+    width: 12px;
+    height: 12px;
   }
 }
